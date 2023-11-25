@@ -8,5 +8,6 @@ export default defineConfig({
     plugins: [vue(), mkcert()],
     define: {
         APP_VERSION: "\"1.0\"",
-    }
+    },
+    base: "/colourblind-simulator/"
 })
